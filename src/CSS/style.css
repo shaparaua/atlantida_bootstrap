@@ -3,6 +3,7 @@ body {
     font-family: 'Bitter', serif;
     font-weight: 400;
     font-size: 14px;
+
 }
 
 .container {
@@ -10,15 +11,179 @@ body {
 }
 
 .header {
-
+    height: 3rem;
 }
 
 .header__top {
     height: 50px;
     background-color: #000;
 
+
+}
+.navbar-brand {
+    font-size: 1.7rem;
+    line-height: 1;
+    color: #000;
 }
 
-.header__item {
-    fill: #000;
+.navbar-brand:hover {
+    color: red;
 }
+
+
+.badge {
+    color: red;
+}
+
+.nav-link {
+    font-size: 12px;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+
+.carousel-item {
+    position: relative;
+}
+.carousel-caption  {
+    position: absolute;
+    width: 360px;
+    height: 130px;
+    top: 100px;
+    left: 25px;
+}
+
+.carousel__title {
+    font-size: 24px;
+    font-weight: 700;
+    float: left;
+}
+
+.main {
+    position: relative;
+}
+
+/*Thumbnails*/
+
+.thumbnails {
+    width: 940px;
+    height: 120px;
+    background-color: #1C1C1C;
+
+    z-index: 100;
+
+}
+
+.thumbnails__deck {
+
+
+}
+
+.thumbnails__card {
+    border: none;
+    margin: auto 15px;
+    width: 70px;
+    height: 60px;
+    margin-top: 25px;
+
+}
+
+.card-img-top {
+
+}
+
+/*features*/
+
+.features {
+    margin-top: 35px;
+    margin-left: 150px;
+    margin-right: 60px;
+}
+
+.features__item {
+    margin-right: 45px;
+}
+
+.features__title {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
+}
+
+.features__text {
+    font-size: 14px;
+    color: #707070;
+}
+
+.work__img {
+    width: 205px;
+    height: 120px;
+    margin-right: -30px;
+    margin-bottom: 20px;
+
+}
+
+/*footer*/
+
+.footer {
+    background-color: #1C1C1C;
+}
+
+.ul {
+    list-style-type: none;
+    margin-left: -39px;
+    margin-top: 2rem;
+}
+
+.footer__title {
+    color: #F1F1F1;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.footer__link {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ADADAD;
+    margin-bottom: 1.5rem;
+    position: relative;
+
+}
+
+
+.footer__link:hover {
+    text-decoration: none;
+    color: #ADADAD;
+
+}
+
+
+
+
+.footer__text {
+    margin-top: 2rem;
+    color: #ADADAD;
+}
+
+.footer__social {
+
+    margin-right: 8px;
+    padding-bottom: 8px;
+
+}
+
+
+
+
+
+
+
+
+
