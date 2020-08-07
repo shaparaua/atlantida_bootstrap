@@ -1,17 +1,18 @@
-$(document).ready(function () {
-    $('.slider-for').slick({
+$(document).ready(function() {
+    $('.slider').slick({
         slidesToShow: 1
-        , slidesToScroll: 0
-        , arrows: false
+        , slidesToScroll: 1
+        , arrows: true
         , fade: true
-        , asNavFor: '.slider-nav'
+        , asNavFor: '.slider__nav'
     });
-    $('.slider-nav').slick({
-        slidesToShow: 10
-        , slidesToScroll: 0
-        , asNavFor: '.slider-for'
-        , dots: true
+    $('.slider__nav').slick({
+        slidesToShow: 9
+        , slidesToScroll: 1
+        , asNavFor: '.slider'
+        , dots: false
         , centerMode: true
         , focusOnSelect: true
+
     });
 });
