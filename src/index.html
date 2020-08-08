@@ -20,9 +20,23 @@
     <!--    header==============-->
     <header class="header">
         <div class="container">
-            <nav class="navbar navbar-expand"> <a class="navbar-brand mx-5" href="#"><span class="header__logo">i</span>Intent<span class="header__badge">.</span></a>
+            <div class="header__social">
+                <a href="#"><svg class="header__item">
+                    <use xlink:href="img/sprite.svg#twitter"></use>
+                </svg></a>
+                <a href="#"><svg class="header__item">
+                    <use xlink:href="img/sprite.svg#facebook"></use>
+                </svg></a>
+                <a href="#"><svg class="header__item">
+                    <use xlink:href="img/sprite.svg#dribble"></use>
+                </svg></a>
+                <a href="#"><svg class="header__item">
+                    <use xlink:href="img/sprite.svg#rss"></use>
+                </svg></a>
+            </div>
+            <nav class="navbar navbar-expand"><a class="header__logo" href="">Intent <span class="header__badge">.</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-                <div class="collapse navbar-collapse justify-content-end mr-3" id="navbarsExample02">
+                <div class="collapse navbar-collapse justify-content-end mr-3 nav__header" id="navbarsExample02">
                     <ul class="nav">
                         <li class="nav-item"> <a class="nav__header nav-link active" href="#">HOME</a></li>
                         <li class="nav-item"> <a class="nav__header nav-link" href="#"> BLOG</a> </li>
@@ -125,28 +139,34 @@
             <div class="container">
                 <div class="work__features row">
                     <div class="work__item col-4">
-                        <svg class="work__svg">
-                            <use xlink:href="img/sprite.svg#settings"></use>
-                        </svg>
-                        <h4 class="work__title">Awesome Sliders</h4>
+                        <a href="#">
+                            <svg class="work__svg">
+                                <use xlink:href="img/sprite.svg#settings"></use>
+                            </svg>
+                        </a>
+                        <h4 class="work__title"><a class="work__title" href="#">Awesome Sliders</a></h4>
                         <p class="work__text">Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.</p>
                     </div>
                     <div class="work__item col-4">
-                        <svg class="work__svg">
-                            <use xlink:href="img/sprite.svg#user"></use>
-                        </svg>
-                        <h4 class="work__title">Modern Theme</h4>
+                        <a href="#">
+                            <svg class="work__svg">
+                                <use xlink:href="img/sprite.svg#user"></use>
+                            </svg>
+                        </a>
+                        <h4 class="work__title"><a class="work__title" href="#">Modern Theme</a></h4>
                         <p class="work__text">Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.</p>
                     </div>
                     <div class="work__item col-4">
-                        <svg class="work__svg">
-                            <use xlink:href="img/sprite.svg#pen"></use>
-                        </svg>
-                        <h4 class="work__title">Customize It</h4>
+                        <a href="#">
+                            <svg class="work__svg">
+                                <use xlink:href="img/sprite.svg#pen"></use>
+                            </svg>
+                        </a>
+                        <h4 class="work__title"><a class="work__title" href="#">Customize It</a></h4>
                         <p class="work__text">Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.</p>
                     </div>
                 </div>
-                <h3 class="work__tagline">make an<span class="badge badge-danger">impression</span>make an that shines</h3>
+                <h3 class="work__tagline"><a class="work__tagline" href="#">make an<span class="badge badge-danger ">impression</span>make an that shines</a></h3>
                 <div class="work__portfolio">
                     <ul class="work__nav nav nav-pills">
                         <li class="work__link nav-item"> <a class="work__link nav-link active" href="#">All</a> </li>
@@ -155,35 +175,42 @@
                         <li class="work__link nav-item"> <a class="work__link nav-link" href="#">Web</a> </li>
                         <li class="work__link nav-item"> <a class="work__link nav-link" href="#">Animation</a> </li>
                     </ul>
-
-                        <div class="row">
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_2.png" alt="">
-                            </div>
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_11.png" alt="">
-                            </div>
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_15.png" alt="">
-                            </div>
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_13.png" alt="">
-                            </div>
+                    <div class="row">
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_2.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
                         </div>
-                        <div class="row">
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_14.png" alt="">
-                            </div>
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_15.png" alt="">
-                            </div>
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_11.png" alt="">
-                            </div>
-                            <div class="work__inner col-3">
-                                <img class="work__img" src="img/img_17.png" alt="">
-                            </div>
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_11.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
                         </div>
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_15.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
+                        </div>
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_13.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_14.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
+                        </div>
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_15.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
+                        </div>
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_11.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
+                        </div>
+                        <div class="work__inner col-3">
+                            <img class="work__img" src="img/img_17.png" alt="">
+                            <h4 class="work__subtitle">Business Cards</h4>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
