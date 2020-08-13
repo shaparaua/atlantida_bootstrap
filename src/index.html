@@ -19,21 +19,34 @@
 <body>
     <!--    header==============-->
     <header class="header">
-        <div class="container">
-            <div class="header__social">
-                <a href="#"><svg class="header__item">
-                    <use xlink:href="img/sprite.svg#twitter"></use>
-                </svg></a>
-                <a href="#"><svg class="header__item">
-                    <use xlink:href="img/sprite.svg#facebook"></use>
-                </svg></a>
-                <a href="#"><svg class="header__item">
-                    <use xlink:href="img/sprite.svg#dribble"></use>
-                </svg></a>
-                <a href="#"><svg class="header__item">
-                    <use xlink:href="img/sprite.svg#rss"></use>
-                </svg></a>
+
+        <div class="header__inner">
+            <div class="container">
+                <div class="header__social">
+                    <a href="#">
+                        <svg class="header__item">
+                            <use xlink:href="img/sprite.svg#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="header__item">
+                            <use xlink:href="img/sprite.svg#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="header__item">
+                            <use xlink:href="img/sprite.svg#dribble"></use>
+                        </svg>
+                    </a>
+                    <a href="#">
+                        <svg class="header__item">
+                            <use xlink:href="img/sprite.svg#rss"></use>
+                        </svg>
+                    </a>
+                </div>
             </div>
+        </div>
+
             <nav class="navbar navbar-expand"><a class="header__logo" href="">Intent <span class="header__badge">.</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
                 <div class="collapse navbar-collapse justify-content-end mr-3 nav__header" id="navbarsExample02">
@@ -45,10 +58,10 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+
     </header>
     <main class="main">
-        <div class="container">
+        <div class="container--slider">
             <div class="slider">
                 <div class="slider__item"> <img src="img/img_1.png" alt="">
                     <div class="slider__inner card-img-overlay">
@@ -175,40 +188,63 @@
                         <li class="work__link nav-item"> <a class="work__link nav-link" href="#">Web</a> </li>
                         <li class="work__link nav-item"> <a class="work__link nav-link" href="#">Animation</a> </li>
                     </ul>
-                    <div class="row">
+                    <div class="work__block row">
                         <div class="work__inner col-3">
                             <img class="work__img" src="img/img_2.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
                         </div>
                         <div class="work__inner col-3">
                             <img class="work__img" src="img/img_11.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
-                        </div>
-                        <div class="work__inner col-3">
-                            <img class="work__img" src="img/img_15.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
                         </div>
                         <div class="work__inner col-3">
                             <img class="work__img" src="img/img_13.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row">
                         <div class="work__inner col-3">
                             <img class="work__img" src="img/img_14.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
                         </div>
+                    </div>
+                    <div class="work__block row">
                         <div class="work__inner col-3">
+
                             <img class="work__img" src="img/img_15.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
+
                         </div>
                         <div class="work__inner col-3">
-                            <img class="work__img" src="img/img_11.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+
+                            <img class="work__img" src="img/img_16.png" alt="">
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
+
                         </div>
-                        <div class="work__inner col-3">
+                       <div class="work__inner col-3">
+
                             <img class="work__img" src="img/img_17.png" alt="">
-                            <h4 class="work__subtitle">Business Cards</h4>
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
+
+                        </div>
+                        <div class="work__inner col-3">
+
+                            <img class="work__img" src="img/img_15.png" alt="">
+                            <div class="work__inf">
+                                <h3 class="work__subtitle"><a class="work__subtitle" href="#">Business Cards</a></h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -236,26 +272,26 @@
                 </div>
                 <div class="footer_post col-4">
                     <h5 class="footer__title">SOCIAL MEDIA</h5>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/vimeo.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/email.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/path.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/tumblr.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/twitter.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/facebook.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/rss.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/digg.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/dribbble.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/behance.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/evernote.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/reddit.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/skype.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/stumble%20upon.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/picasa.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/linkedin.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/flickr.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/google%20+.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/blogger.jpg" alt=""> </a>
-                    <a class="footer__social" href="#"> <img class="footer__social" src="img/zerply.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/vimeo.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/email.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/path.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/tumblr.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/twitter.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/facebook.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/rss.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/digg.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/dribbble.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/behance.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/evernote.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/reddit.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/skype.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/stumble%20upon.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/picasa.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/linkedin.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/flickr.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/google%20+.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/blogger.jpg" alt=""> </a>
+                    <a class="footer__social" href="#" target="_blank"> <img class="footer__social" src="img/zerply.jpg" alt=""> </a>
                 </div>
             </div>
         </div>

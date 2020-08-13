@@ -6,22 +6,32 @@ body {
 }
 
 .container {
-    width: 70rem;
+    width: 940px;
+}
+
+.container--slider {
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .header {
     height: 90px;
     position: relative;
+    margin:  auto;
+}
+.header__inner {
+    width: 100%;
+    height: 40px;
+    background-color: #1C1C1C;
+    padding-top: 10px;
 }
 
 .header__social {
     display: flex;
-    width: 100%;
-    background-color: #1C1C1C;
     flex-direction: row;
-    height: 40px;
     justify-content: flex-end;
-    align-items: center;
+
 }
 
 .header__item {
@@ -35,7 +45,7 @@ body {
 .navbar {
     height: 55px;
     position: absolute;
-    width: 1035px;
+    width: 1040px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -49,6 +59,7 @@ body {
     color: #252525;
     line-height: 0.67;
     position: relative;
+    margin-left: 110px;
 }
 
 .header__logo:before {
@@ -91,16 +102,8 @@ body {
     color: #000;
 }
 
-.header__badge {
-    color: #EA5A4B;
-}
-
 .navbar-brand:hover {
     color: #EA5A4B;
-}
-
-.nav__header {
-    line-height: he
 }
 
 .nav__header {
@@ -110,6 +113,7 @@ body {
     line-height: 1.28;
     color: #000;
     text-transform: uppercase;
+    margin-right: 18px;
 }
 
 .nav-link {
@@ -131,7 +135,6 @@ body {
     background: rgba(6, 6, 6, 0.75);
     border-radius: 0;
 }
-
 
 /*slider */
 
@@ -211,7 +214,6 @@ body {
 /*work========*/
 
 .work {
-    width: 940px;
     height: auto;
     margin: auto;
     position: absolute;
@@ -219,17 +221,24 @@ body {
     z-index: 1000;
     transform: translateX(-50%);
     background-color: #fff;
+    border-left: 1px solid #DFDFDF;
+    border-right: 1px solid #DFDFDF;
 }
 
 .work__features {
     margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
 }
 
 .work__item {
-    width: 180pxs;
+    width: 28%;
     height: auto;
-    margin-right: -25px;
+    margin-right: 15px;
     position: relative;
+
 }
 
 .work__svg {
@@ -270,11 +279,10 @@ body {
 
 .work__text {
     color: #5C5C5C;
-    width: 266px;
     font-family: HelveticaNeue, sans-serif;
     font-size: 14px;
-    margin-right: 22px;
-    line-height: 1.15;
+    line-height: 1.14;
+    margin-left: -5px;
 }
 
 .work__tagline {
@@ -348,38 +356,55 @@ body {
     height: 120px;
     margin-bottom: 20px;
     position: relative;
-    z-index: -2;
+    z-index: 1;
 }
+.work__block {
 
+}
 .work__img {
-    display: block;
-    z-index: -6;
 
+}
+.work__inf {
+    position: absolute;
+    height: 25px;
+    width: 100%;
+    padding-left: 9px;
+    z-index: 1000;
+    bottom: 0;
+    background: rgba(6, 6, 6, 0.75);
+    padding-top: 5px;
 }
 
 .work__subtitle {
     font-family: 'Bitter', serif;
     font-weight: 700;
     font-size: 14px;
-    position: absolute;
-    height: 25px;
-    width: 100%;
-    color: #000;
-    bottom: -7%;
-    padding-left: 9px;
+    text-decoration: none;
     color: #fff;
-    line-height: 25px;
-    display: none;
-    z-index: 1;
-    background: rgba(6, 6, 6, 0.75);
-
+}
+.work__inner .work__inf {
+    opacity: 0;
+}
+.work__inner .work__inf:hover {
+    opacity: 1;
+    transition: .2s linear;
+    text-decoration: none;
+    color: #fff;
+}
+.work__inner .work__subtitle:hover {
+    opacity: 1;
+    transition: .3s linear;
+    text-decoration: none;
+    color: #fff;
 }
 
-.work__inner:hover .work__subtitle {
+.work__inf a {
     display: block;
 }
 
-
+.work__item a {
+    display: block;
+}
 
 .footer {
     height: 395px;
@@ -401,10 +426,6 @@ body {
     top: 0;
     left: 0;
     z-index: 100;
-}
-
-.footer__row {
-    margin-left: 50px;
 }
 
 .footer_post {
@@ -447,8 +468,18 @@ body {
 }
 
 .footer__social {
-    padding-right: 4px;
-    padding-bottom: 8px;
-    width: 31px;
-    height: 30px;
+    margin: 3px 2px;
+    width: 29px;
+    height: 28px;
 }
+
+/*blog*/
+
+.main__img {
+    width: 1040px;
+    height: 140px;
+    overflow: hidden;
+}
+
+
+
