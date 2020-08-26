@@ -16,3 +16,8 @@ $(document).ready(function() {
 
     });
 });
+
+$(document).ready(function(){
+    $('.blog--slider').slick();
+});
+
