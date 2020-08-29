@@ -338,7 +338,7 @@ a {
 
 .work__portfolio {
     width: 890px;
-    height: auto;
+    margin: 0 auto;
 }
 
 .work__nav {
@@ -705,12 +705,13 @@ a {
 }
 
 .page-item .active {
-    background-color: #EA5A4B;
+
     color: #fff;
 }
 
 .page-item:first-child .page-link {
     border-radius: 0;
+    background-color: #EA5A4B;
 }
 
 
