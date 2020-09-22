@@ -239,7 +239,9 @@ a {
 
 .work__portfolio {
     background-color: #fff;
-    width: 940px;
+    width: 938px;
+
+    margin: 0 auto;
 
 }
 
@@ -347,10 +349,7 @@ a {
     font-size: 14px;
 }
 
-.work__portfolio {
-    width: ; 940px;
-    margin: 0 auto;
-}
+
 
 .work__nav {
     margin-bottom: 27px;
@@ -512,6 +511,12 @@ a {
 
 /*blog*/
 
+.box {
+    width: 940px;
+    border-bottom: none;
+
+}
+
 .blog {
     margin: 0 auto;
     width: 100%;
@@ -533,6 +538,7 @@ a {
     transform: translateX(-50%);
     top: 121px;
     z-index: 15;
+    margin: 0 auto;
 
 }
 
@@ -545,6 +551,8 @@ a {
     font-weight: 700;
     padding-left: 42px;
     padding-top: 34px;
+    border-left: none;
+
 
 }
 
@@ -571,6 +579,8 @@ a {
     width: 940px;
     border: #DFDFDF 1px solid;
     border-bottom: none;
+    border-right: #DFDFDF 1px solid;
+    border-top: none;
 }
 
 .blog__suptitle {
