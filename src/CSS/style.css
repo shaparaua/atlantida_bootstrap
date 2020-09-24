@@ -14,6 +14,11 @@ a {
     margin: 0 auto;
 }
 
+.container--contact {
+    width: 889px;
+    margin: 0 auto;
+}
+
 .container--slider {
     width: 1040px;
     margin: 0 auto;
@@ -524,6 +529,13 @@ a {
     position: relative;
 }
 
+.blog--contact {
+    margin: 0 auto;
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+
 .blog__intro {
     width: 1030px;
     height: 151px;
@@ -567,6 +579,7 @@ a {
     font-size: 14px;
     font-family: 'Bitter', serif;
     font-weight: 700;
+    color: #D1D0D0;
 }
 
 .blog__main {
@@ -765,6 +778,46 @@ a {
     border-radius: 0;
     background-color: #EA5A4B;
 }
+
+/*maps*/
+
+.maps {
+    margin-top: 26px;
+    margin-bottom: 26px;
+    text-align: center;
+}
+
+/*contact*/
+
+.contact {
+    width: 215px;
+    height: 241px;
+    font-size: 14px;
+    font-family: HelveticaNeue, sans-serif;
+    font-weight: 500;
+    line-height: 16px;
+    color: #252525;
+
+}
+
+.contact__text {
+    width: 210px;
+}
+
+.contact__address {
+    width: 110px;
+}
+
+.contact__phone {
+    width: 126px;
+}
+
+
+
+
+
+
+
 
 
 
